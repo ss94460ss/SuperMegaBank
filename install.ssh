@@ -1,9 +1,9 @@
 #!/bin/bash
 
-dir='/system-engineering'
+dir="system-engineering"
 gitrepository="https://github.com/ss94460ss/SuperMegaBank"
 
-mkdir -p $dir
+mkdir -p "$dir"
 
 cd $dir
 git clone $gitrepository
