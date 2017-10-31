@@ -1,0 +1,10 @@
+#!/bin/bash
+
+dir='/system-engineering'
+gitrepository="http://github.com/ss94460ss/SuperMegaBank"
+
+mkdir -p dir
+
+cd dir
+git clone $gitrepository
+find /A -type f -exec chmod 0777 {} \;
