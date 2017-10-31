@@ -1,0 +1,12 @@
+app:
+  build: ./app
+  ports:
+  - "5000:5000"
+  volumes:
+  - .:/code1
+test:
+  build: ./testing
+  ports:
+  - "6000:6000"
+  volumes:
+  - .:/code2
