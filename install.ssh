@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir='/system-engineering'
-gitrepository="http://github.com/ss94460ss/SuperMegaBank"
+gitrepository="https://github.com/ss94460ss/SuperMegaBank"
 
 mkdir -p dir
 
