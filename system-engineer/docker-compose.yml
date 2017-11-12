@@ -6,8 +6,6 @@ services:
      - "5000:5000"
  test:
    build: testing
-   environment:
-     - PYTHONPATH=/system-engineer/app
    depends_on:
      - app
    links:
