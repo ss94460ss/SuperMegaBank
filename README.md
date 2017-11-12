@@ -4,7 +4,7 @@ Deployment files
 
 Deployment Instructions:
 1) A simple ssh script has been provided to 'mkdir', clone github, change permissions to make files executable and call the docker-compose command for this project.
-2) The project involves 2 services, app and testing.  My solution creates 2 containers, one container for each service - like two microservices standing independently but will still need to talk to each other. I have used docker-compose as my deployment solution for ease of deployment where one configuration file contains all details for both services.  The hosting server will require docker, docker-compose and appache or a similar web service to host the flask 'api's etc.
+2) The project involves 2 services, app and testing.  My solution creates 2 containers, one container for each service - like two microservices standing independently but will still need to talk to each other. I have used docker-compose as my deployment solution for ease of deployment where one configuration file contains all details for both services.  The hosting server will require docker, docker-compose and apache or a similar web service to host the flask 'api's etc.
 
   Solution Details (system-engineer folder):
         1) Created a new Dockerfile under the app directory.  The configuration file loads Python PIP dependencies contained in the requirements.txt file and runs the app.py module.
