@@ -17,7 +17,7 @@ Deployment Instructions:
   }, 
   "id": "111"
 }
-        5) The testing.py script has tested successfully but is slightly problematic when called from docker-compose.  I have copied and pasted the path details and 'from app import app' into the testing.py file but possibly needs a further modification in the system path variable.
+        5) The testing.py script has tested successfully but is slightly problematic when called from docker-compose.  I have copied and pasted the path details and 'from app import app' into the testing.py file but possibly needs a further modification in the system path variable or the removal of __init__.py for Python versions 3.3 and above.
 
 thanks
 
