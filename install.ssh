@@ -6,4 +6,4 @@ gitrepository="https://github.com/ss94460ss/SuperMegaBank"
 git clone $gitrepository
 cd "SuperMegaBank/$dir"
 find . -type f -exec chmod +x {} \;
-docker-compose up
+docker-compose up -d
