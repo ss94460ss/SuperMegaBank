@@ -1,8 +1,14 @@
 #!/usr/bin/env python
 
 import unittest
-from context import app
+#from context import app
+import sys, os
 import json
+
+basedir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, basedir + '/../')
+
+from app import app
 
 class ApiTestCase(unittest.TestCase):
 
