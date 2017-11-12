@@ -7,5 +7,5 @@ WORKDIR /app
 RUN pip install virtualenv
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
-CMD ["app.py"]
+CMD ["python", "app.py"]
 
