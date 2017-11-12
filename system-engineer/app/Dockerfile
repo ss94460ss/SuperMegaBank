@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+#FROM ubuntu:latest
 MAINTAINER Sue Samuel "sue.samuel@bigpond.com"
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
@@ -8,7 +8,7 @@ WORKDIR /app
 RUN pip install virtualenv
 ADD requirements.txt app/requirements.txt
 RUN pip install -r requirements.txt
-ADD app.py app/app.py
+#ADD app.py app/app.py
 ENTRYPOINT ["python"]
-CMD ["python", "app/app.py"]
+CMD ["app.py"]
 
