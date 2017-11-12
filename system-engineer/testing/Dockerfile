@@ -5,8 +5,10 @@ RUN apt-get install -y python-pip python-dev build-essential
 COPY . /testing
 WORKDIR /testing
 #RUN pip install virtualenv
-RUN pip install -r requirements.txt
+ADD requirements.txt testing/requirements.txt
+RUN pip install -r testing/requirements.txt
 ENV PYTHONPATH $PYTHONPATH:/system-engineer/app
 ENTRYPOINT ["python"]
-CMD ["python", "testing.py"]
+CMD ["testing.py"]
+EXPOSE 5001
 
