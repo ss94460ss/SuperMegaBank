@@ -1,4 +1,4 @@
-"time","passengers","tip","distance","payment_method","tip"
+"time","passengers","distance","fare","payment_method","tip"
 "2021-09-01T15:27:53.000000Z",1.0,0.93,5.5,"Cash",0.0
 "2021-09-01T15:27:53.000000Z",2.0,0.66,6.5,"Cash",0.0
 "2021-09-01T15:27:53.000000Z",1.0,1.2,8.5,"Card",1.85
